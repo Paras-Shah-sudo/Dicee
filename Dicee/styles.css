@@ -1,0 +1,82 @@
+a {
+    color: #4ED9A6;
+}
+a:hover {
+    color: #F2F2F2;
+}
+body {
+    margin: auto;
+    background-color: #F2F2F2;
+}
+button {
+    background-color: #191919;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    transition-duration: 0.3s;
+}
+button:hover {
+    background-color: white;
+    color:#191919;
+}
+h1 {
+    background-color: #45BF9D;
+    text-align: center;
+    font-size: 6rem;
+    font-family: Dancing Script;
+    margin:auto;
+    padding-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Dancing Script;
+}
+hr {
+    border: none;
+    border-top: solid 4px;
+    margin: auto;
+    padding: 0;
+}
+p {
+    font-size: 1.5rem;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#btn {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 200px;
+    width: 18%;
+}
+#p1 {
+    color: blue;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 40%;
+}
+#p2 {
+    color: red;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 40%;
+}
+#end {
+    width: 100%;
+}
+#con {
+    background-color: #262626;
+    color: #4ED9A6;
+    text-align: center;
+    padding: 17px;
+}
