@@ -1,5 +1,12 @@
+a {
+    color: #4ED9A6;
+}
+a:hover {
+    color: #F2F2F2;
+}
 body {
-    background-color: aquamarine;
+    margin: auto;
+    background-color: #F2F2F2;
 }
 button {
     background-color: #191919;
@@ -17,11 +24,12 @@ button:hover {
     color:#191919;
 }
 h1 {
+    background-color: #45BF9D;
     text-align: center;
     font-size: 6rem;
     font-family: Dancing Script;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin:auto;
+    padding-bottom: 20px;
 }
 h2 {
     text-align: center;
@@ -30,11 +38,15 @@ h2 {
 }
 hr {
     border: none;
-    border-top: solid 3px;
+    border-top: solid 4px;
+    margin: auto;
     padding: 0;
 }
 p {
     font-size: 1.5rem;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #btn {
     position: relative;
@@ -48,7 +60,7 @@ p {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width: 40%;
 }
 #p2 {
@@ -63,5 +75,8 @@ p {
     width: 100%;
 }
 #con {
+    background-color: #262626;
+    color: #4ED9A6;
     text-align: center;
+    padding: 17px;
 }
