@@ -6,11 +6,12 @@ a:hover {
 }
 body {
     margin: auto;
-    background-color: #F2F2F2;
+    background-color: #45BF9D;
 }
 button {
     background-color: #191919;
     border: 2px solid black;
+    border-radius: 12px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -18,6 +19,7 @@ button {
     display: inline;
     font-size: 16px;
     transition-duration: 0.3s;
+    opacity: 0.9;
 }
 button:hover {
     background-color: white;
@@ -56,15 +58,13 @@ p {
     width: 18%;
 }
 #p1 {
-    color: blue;
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 108px;
     width: 40%;
 }
 #p2 {
-    color: red;
     display: inline-block;
     vertical-align: top;
     text-align: center;
